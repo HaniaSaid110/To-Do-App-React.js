@@ -9,7 +9,7 @@ import TaskDetails from "./pages/TaskDetails";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/To-Do-App-React.js/">
         <Routes>
           <Route path="/" element={<MainLayout />}>
             <Route index element={<Home />} />
